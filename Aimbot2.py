@@ -1,6 +1,17 @@
-# Basic Description:
-# This script captures a specific area of the screen and uses the YOLOv8 pose detection model 
-# to identify human keypoints, automatically moving the mouse cursor to the first detected keypoint.
+"""
+Human Keypoint Detection and Cursor Control Script
+This script captures a specified area of the screen and employs the YOLOv8 pose detection model 
+to identify human keypoints. It automatically moves the mouse cursor to the position of the 
+first detected keypoint, facilitating real-time interaction based on human pose detection.
+
+Requirements:
+    - Install necessary modules:
+        pip install ultralytics numpy pywin32 mss
+
+Controls:
+    - Press 'q' to exit the program.
+"""
+
 from ultralytics import YOLO
 import win32api
 from mss import mss
