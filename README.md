@@ -18,8 +18,9 @@ To run the scripts, you need to install the following Python packages:
 - `keyboard` (for exit control)
 
 You can install the required modules using pip:
-bash
+```bash
 pip install ultralytics numpy pywin32 mss keyboard
+```
 
 
 ## Scripts
